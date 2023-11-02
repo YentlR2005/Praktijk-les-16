@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nieuwspolitie,
+.nieuwsajax,
+.nieuwsstikstof {
+    background-color: black;
+    color: white;
+    width: 100%;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.nieuwspolitie img,
+.nieuwsajax img {
+    border: 2px solid white;
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
+
+.nieuwsstikstof img {
+    float: right;
+    border: 2px solid white;
+    width: 30%;
+    margin: 5px;
+}
+
+.nieuwspolitie img:hover {
+    filter: saturate(5);
+}
+
+.nieuwsstikstof img:hover {
+    filter: opacity(49%);
+}
+
+.nieuwsajax img:hover {
+    filter: none;
+}
+
+.nieuwspolitie {
+    height: 438px;
+}
+
+.nieuwsajax {
+    height: 345px;
+}
+
+.nieuwsstikstof {
+    height: 483px;
+}
+
+p {
+    padding: 3px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .nieuwspolitie,
+    .nieuwsajax,
+    .nieuwsstikstof {
+        height: auto;
+    }
+
+    .nieuwspolitie img,
+    .nieuwsajax img,
+    .nieuwsstikstof img {
+        width: 100%;
+        /* Behoud de volledige breedte van de afbeeldingen voor mobiele weergave */
+    }
+}
