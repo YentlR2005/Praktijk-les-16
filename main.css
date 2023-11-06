@@ -1,23 +1,23 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: white;
+    background-color:darkorange;
+    color: black;
 }
 
 .nieuwspolitie,
 .nieuwsajax,
 .nieuwsstikstof {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     width: 100%;
     letter-spacing: 1px;
     border-radius: 5px;
-    border: 4px solid gold;
+    border: 4px solid darkorange;
 }
 
 .nieuwspolitie img,
 .nieuwsajax img {
-    border: 2px solid gold;
+    border: 2px solid darkorange;
     width: 25%;
     float: left;
     margin: 5px;
@@ -25,7 +25,7 @@ body {
 
 .nieuwsstikstof img {
     float: right;
-    border: 2px solid gold;
+    border: 2px solid darkorange;
     width: 25%;
     margin: 5px;
 }
@@ -68,12 +68,19 @@ p {
     .nieuwsajax,
     .nieuwsstikstof {
         height: auto;
+        border: 0px;
+        border-radius: 0px;
     }
 
     .nieuwspolitie img,
     .nieuwsajax img,
     .nieuwsstikstof img {
-        width: 100%;
+        width: 50%;
+        margin: 0px;
+        border: 0px;
+        margin: 3px;
+        
+        
         /* Behoud de volledige breedte van de afbeeldingen voor mobiele weergave */
     }
 }
