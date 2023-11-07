@@ -4,7 +4,7 @@ body {
     color: black;
 }
 
-.nieuwspolitie,
+.nieuwsisrael,
 .nieuwsajax,
 .nieuwsstikstof {
     background-color: white;
@@ -14,8 +14,7 @@ body {
     border-radius: 5px;
     border: 4px solid darkorange;
 }
-
-.nieuwspolitie img,
+.nieuwsisrael img,
 .nieuwsajax img {
     border: 2px solid darkorange;
     width: 25%;
@@ -26,32 +25,20 @@ body {
 .nieuwsstikstof img {
     float: right;
     border: 2px solid darkorange;
-    width: 25%;
+    width: 20%;
     margin: 5px;
 }
-
-.nieuwspolitie img:hover {
-    filter: saturate(5);
-}
-
-.nieuwsstikstof img:hover {
-    filter: opacity(49%);
-}
-
-.nieuwsajax img:hover {
-    filter: none;
-}
-
-.nieuwspolitie {
-    height: 470px;
+.nieuwsisrael {
+    position: relative;
 }
 
 .nieuwsajax {
-    height: 360px;
+    position: relative;
 }
 
 .nieuwsstikstof {
-    height: 405px;
+    
+    position: relative;
 }
 
 p {
@@ -64,7 +51,7 @@ p {
 
 @media screen and (max-width: 768px) {
 
-    .nieuwspolitie,
+    .nieuwsisrael,
     .nieuwsajax,
     .nieuwsstikstof {
         height: auto;
@@ -72,7 +59,7 @@ p {
         border-radius: 0px;
     }
 
-    .nieuwspolitie img,
+    .nieuwsisrael img,
     .nieuwsajax img,
     .nieuwsstikstof img {
         width: 50%;
